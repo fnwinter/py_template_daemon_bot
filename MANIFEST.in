@@ -1,3 +1,6 @@
-recursive-include ./ *
+include py_temp_daemon
 include requirements.txt
+include requirements.py
 global-exclude *.pyc
+exclude .git
+exclude __pycache__
