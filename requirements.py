@@ -1,6 +1,8 @@
 req = [
   'docutils==0.19',
   'lockfile==0.12.2',
+  'psutil==5.9.3',
   'python-daemon==2.3.2',
+  'sdist==0.0.0',
   'setproctitle==1.3.2',
 ]
