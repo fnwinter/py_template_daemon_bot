@@ -13,10 +13,12 @@ import setproctitle
 import sys
 
 from daemon import pidfile
-from entry import entry_function
 
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 LOCK_PATH = os.path.join(SCRIPT_PATH, "lock.pid")
+sys.path.append(SCRIPT_PATH)
+
+from entry import entry_function
 
 def start_daemon():
   if os.path.exists(LOCK_PATH):

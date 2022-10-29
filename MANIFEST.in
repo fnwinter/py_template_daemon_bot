@@ -1,6 +1,7 @@
 include py_temp_daemon
 include requirements.txt
 include requirements.py
+include py_temp_daemon/config.json
 global-exclude *.pyc
 exclude .git
 exclude __pycache__
