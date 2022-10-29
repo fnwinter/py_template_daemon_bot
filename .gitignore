@@ -1,6 +1,4 @@
 __pycache__
 lock.pid
 dist/
-py_template_daemon_bot.egg-info/
-py_temp_daemon/py_template_daemon.egg-info/PKG-INFO
 py_template_daemon.egg-info
