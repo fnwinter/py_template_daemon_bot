@@ -60,9 +60,11 @@ def read_config():
     config = json.load(f)
 
     # change process title
-    title = config.get('title')
-    setproctitle.setproctitle(title)
-    print(f"service title : {title}")
+    title_ = config.get('title')
+    setproctitle.setproctitle(title_)
+    version_ = config.get('version')
+    print(f"service title   : {title_}")
+    print(f"service version : {version_}")
 
 def main():
   parser = argparse.ArgumentParser(description='Python Template Daemon')
