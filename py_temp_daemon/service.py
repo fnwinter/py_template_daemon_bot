@@ -62,7 +62,7 @@ def read_config():
     # change process title
     title = config.get('title')
     setproctitle.setproctitle(title)
-    print(f"daemon title : {title}")
+    print(f"service title : {title}")
 
 def main():
   parser = argparse.ArgumentParser(description='Python Template Daemon')

@@ -1,3 +1,4 @@
 {
-  "title": "sample daemon"
+  "title": "sample daemon",
+  "version": "0.0.6"
 }

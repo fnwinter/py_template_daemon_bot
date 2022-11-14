@@ -4,8 +4,14 @@
 from requirements import req
 from setuptools import setup, find_packages
 
+global VERSION
+with open("py_temp_daemon/config.json") as f:
+  import json
+  config_ = json.load(f)
+  VERSION = config_.get("version")
+
 setup(name='py_template_daemon',
-      version="0.0.5",
+      version=VERSION,
 
       url='https://github.com/fnwinter/py_template_daemon',
       author='JungJik Lee',
