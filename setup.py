@@ -5,7 +5,7 @@ from requirements import req
 from setuptools import setup, find_packages
 
 setup(name='py_template_daemon',
-      version="0.0.4",
+      version="0.0.5",
 
       url='https://github.com/fnwinter/py_template_daemon',
       author='JungJik Lee',
